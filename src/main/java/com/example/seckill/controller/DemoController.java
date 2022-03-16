@@ -12,7 +12,7 @@ public class DemoController {
     @RequestMapping("/hello")
     public String hello(Model model) {
         model.addAttribute("name","yipeng");
-        return "hello2";
+        return "hello";
     }
 
 }
